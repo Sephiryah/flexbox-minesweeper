@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Pixel;
+    src: url(./ressource/font/DTM-Sans.otf);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Pixel;
+}
+
+#cadre{
+    display: flex;
+    width: 325px;
+    height: 325px;
+    background-color: #CACACA;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+#game_area{
+    display: flex;
+    width: 288px;
+    height: 288px;
+    background-color: #CACACA;
+    box-shadow: -7px 7px  #919191, 7px -7px white;
+    flex-wrap: wrap;
+}
+
+
+#game_area .visible_case:hover {
+    display: flex;
+    width: 34px;
+    height: 34px;
+    border: 1px dashed black;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+#game_area .one:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+#game_area .two:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+#game_area .three:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+#game_area .invisible{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    flex-direction: row;
+    color: #CACACA;
+    /*box-shadow: -3px -3px white, 3px 3px #919191;*/
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid #919191;
+    border-bottom: 2px solid #919191;
+}
+
+#game_area img{
+    opacity: 0;
+}
+
+#game_area img:hover{
+    opacity: 1;
+}
