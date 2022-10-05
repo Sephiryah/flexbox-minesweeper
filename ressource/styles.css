@@ -67,7 +67,6 @@ body {
     height: 32px;
     flex-direction: row;
     color: #CACACA;
-    /*box-shadow: -3px -3px white, 3px 3px #919191;*/
     border-left: 2px solid white;
     border-top: 2px solid white;
     border-right: 2px solid #919191;
